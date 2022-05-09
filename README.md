@@ -4,6 +4,8 @@ Presumptions/Notes
 
 Configuration is in appsettings.json within the IntradayPowerPositionReport.WorkerService project.
 
+To get this up and running quickly, once you have specified the path you'd like, set IntradayPowerPositionReport.WorkerService as the startup project in VS and run as normal
+
 You'll need to update the appsettings.json with the path you'd like. THere is an expectation the path to where the file is saved is already valid.
 
 If file exists, file generation fails, logged (currently logged to console but can be anywhere, log file etc..), but process keeps polling.
