@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>dotnet-IntradayPowerPositionReport.Service-3E2D309B-C1AF-4E90-ADE2-01E8043DBBC9</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="5.0.1" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IntradayPowerPositionReport\IntradayPowerPositionReport.csproj" />
+  </ItemGroup>
+</Project>
